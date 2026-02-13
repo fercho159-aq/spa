@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Coyoacán - Masajes Reductivos y SPA</title>
+    <meta name="description"
+        content="Descubre la serenidad en el corazón de Coyoacán. Especialistas en masajes reductivos, moldeadores y bienestar holístico con técnicas tradicionales y modernas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Alma Coyoacán</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link">Masajes</a></li>
+                <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+                <li><a href="#contacto" class="btn-primary">Reservar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Renueva tu Figura,<br>Revive tu Espíritu</h1>
+            <p>El santuario de bienestar y masajes reductivos en el corazón histórico de Coyoacán.</p>
+            <div class="hero-btns">
+                <a href="#servicios" class="btn-primary">Ver Tratamientos</a>
+                <a href="#contacto" class="btn-secondary">Contáctanos</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="nosotros" class="section about">
+        <div class="container about-grid">
+            <div class="about-text fade-in">
+                <h2>Un Oasis en Coyoacán</h2>
+                <p>Inspirados en la tradición y la arquitectura colonial de nuestro barrio, <strong>Alma
+                        Coyoacán</strong> fusiona técnicas ancestrales con la cosmetología moderna.</p>
+                <p>Nuestro espacio está diseñado para desconectarte del caos urbano. Utilizamos aceites orgánicos,
+                    maderas naturales y piedras volcánicas para crear una experiencia de lujo que transforma tu cuerpo y
+                    calma tu mente. Somos expertos en <strong>masajes reductivos</strong> que esculpen tu silueta de
+                    manera natural.</p>
+            </div>
+            <div class="about-image fade-in delay-200">
+                <!-- Placeholder for SPA Interior Image -->
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Masaje relajante en Alma Coyoacán" class="img-fluid"
+                    style="border-radius: 10px; box-shadow: var(--shadow-soft); height: 400px; width: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section services">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Nuestros Rituales</h2>
+                <p>Especialistas en transformación corporal y relajación profunda.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1: Reductivo (Featured) -->
+                <div class="service-card featured fade-in">
+                    <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Masaje Reductivo Escultor</h3>
+                    <p>Nuestra especialidad. Técnica vigorosa que ayuda a eliminar grasa localizada y estilizar la
+                        figura. Utilizamos maderoterapia y vendas frías para maximizar resultados.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Maderoterapia colombiana</li>
+                        <li><i class="fas fa-check"></i> Drenaje de toxinas</li>
+                        <li><i class="fas fa-check"></i> Resultados visibles</li>
+                    </ul>
+                    <span class="price">Desde $850 MXN</span>
+                    <a href="#contacto" class="btn-text">Agendar Cita <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 2: Drenaje -->
+                <div class="service-card fade-in delay-100">
+                    <div class="card-icon"><i class="fas fa-water"></i></div>
+                    <h3>Drenaje Linfático</h3>
+                    <p>Estimula el sistema linfático para eliminar líquidos retenidos y toxinas. Ideal post-operatorio o
+                        para reducir la inflamación y celulitis.</p>
+                    <span class="price">Desde $700 MXN</span>
+                    <a href="#contacto" class="btn-text">Agendar Cita <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 3: Holístico -->
+                <div class="service-card fade-in delay-200">
+                    <div class="card-icon"><i class="fas fa-hot-tub"></i></div>
+                    <h3>Relajante Holístico</h3>
+                    <p>Un masaje suave y envolvente con aromaterapia de lavanda y cítricos. Libera el estrés acumulado y
+                        armoniza tu energía vital.</p>
+                    <span class="price">Desde $650 MXN</span>
+                    <a href="#contacto" class="btn-text">Agendar Cita <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Parallax -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Tu mejor versión te espera</h2>
+            <p>Pregunta por nuestros paquetes de 5 y 10 sesiones reductivas con descuento especial.</p>
+            <a href="https://wa.me/525512345678" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i>
+                Reservar por WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="ubicacion" class="section contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in">
+                    <h2>Visítanos</h2>
+                    <p>Estamos ubicados en una casona restaurada a pocos pasos del Jardín Centenario.</p>
+
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Calle Francisco Sosa 123<br>Barrio de Santa Catarina, Coyoacán<br>04010, CDMX</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horario</h4>
+                            <p>Lunes a Viernes: 10:00 AM - 8:00 PM<br>Sábados: 10:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Contacto</h4>
+                            <p>Tel: (55) 5555-5555<br>WhatsApp: (55) 1234-5678</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Placeholder Map -->
+                <div class="contact-map fade-in delay-200">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.139686064436!2d-99.16548768561895!3d19.35122198693003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffc29b900001%3A0x6e2671545695273b!2sCoyoac%C3%A1n%2C%20Mexico%20City%2C%20CDMX!5e0!3m2!1sen!2smx!4v1625680000000!5m2!1sen!2smx"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h3>Alma Coyoacán</h3>
+                <p>Bienestar y belleza natural.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 Alma Coyoacán SPA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
